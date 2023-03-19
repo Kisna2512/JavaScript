@@ -19,3 +19,6 @@ switch (a) {
   default:
     break;
 }
+
+let age = 19;
+console.log("You can ", age < 18 ? "Not drive" : "drive");
