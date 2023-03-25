@@ -11,3 +11,4 @@ let fruit = "bana'na";
 console.log(fruit);
 
 console.log(boy1.toLowerCase());
+console.log(boy2.toUpperCase());
