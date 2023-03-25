@@ -16,5 +16,6 @@ console.log(boy1.slice(2));
 console.log(boy1.slice(1, 2));
 console.log(boy2.slice(2, 5));
 console.log(boy2.replace("Dar", "Per"));
-
+let s = "              Hello World!!        ";
 console.log(str.concat(boy1));
+console.log(s.trim());
