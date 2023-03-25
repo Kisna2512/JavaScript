@@ -9,3 +9,5 @@ console.log(sentence);
 
 let fruit = "bana'na";
 console.log(fruit);
+
+console.log(boy1.toLowerCase());
