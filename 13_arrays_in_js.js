@@ -13,3 +13,6 @@ console.log(typeof b);
 
 let c = a.join("?");
 console.log(c, typeof c);
+
+a.pop();
+console.log(a);
