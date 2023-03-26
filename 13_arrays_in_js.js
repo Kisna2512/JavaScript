@@ -16,3 +16,6 @@ console.log(c, typeof c);
 
 a.pop();
 console.log(a);
+
+let r = a.shift();
+console.log(r, a);
