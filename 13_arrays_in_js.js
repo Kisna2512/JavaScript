@@ -10,3 +10,6 @@ let a = [23, 45, 32, 12];
 let b = a.toString();
 console.log(b);
 console.log(typeof b);
+
+let c = a.join("?");
+console.log(c, typeof c);
