@@ -19,3 +19,6 @@ console.log(a);
 
 let r = a.shift();
 console.log(r, a);
+
+let s = a.unshift("Hello");
+console.log(a);
