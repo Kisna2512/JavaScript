@@ -1,0 +1,11 @@
+#btn {
+  background: red;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+#txt {
+  background-color: aqua;
+  border-radius: 5px;
+  border-style: groove;
+}
