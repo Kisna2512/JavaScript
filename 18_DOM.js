@@ -2,3 +2,5 @@
 // textNode
 // elementNode
 // commentNode
+
+document.title = "Hey!!";
