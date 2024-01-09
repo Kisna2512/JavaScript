@@ -1,15 +1,12 @@
 // Stack- Primitive data types
 // Heap-  Non-primitive data types
-
 let x = 4;
 y = x;
 console.log(y);
 y = 3;
 console.log(x);
 console.log(y);
-
 // objects saves in heap memory
-
 let obj1 = {
   name: "krishna",
   email: "krishna@gmail.com",
