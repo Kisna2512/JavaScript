@@ -23,8 +23,20 @@ const obj2 = { 3: "c", 4: "d" };
 const obj3 = { ...obj1, ...obj2 }; // spread operator
 // console.log(obj3);
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty("isloggedIn"));
+// console.log(user.hasOwnProperty("isloggedIn"));
+
+// Object Destructuring
+
+const course = {
+  courseName: "JS",
+  price: 2456,
+  CourseInstructor: "ABC",
+};
+
+const { CourseInstructor } = course;
+const { CourseInstructor: instructor } = course;
+console.log(instructor);
