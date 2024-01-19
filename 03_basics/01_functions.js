@@ -19,3 +19,28 @@ function userLogin(username) {
 
 // console.log(userLogin("Krishna"));
 console.log(userLogin());
+
+// rest operator in javascript
+function calculateCartPrice(...num) {
+  return num;
+}
+
+console.log(calculateCartPrice(200, 345, 567));
+
+const user = {
+  name: "Krishna",
+  age: 21,
+};
+
+function ObjectHandle(anyObject) {
+  console.log(
+    `Name is ${anyObject.name} and age of the user is ${anyObject.age}`
+  );
+}
+
+ObjectHandle(user);
+
+ObjectHandle({
+  name: "XYZ",
+  age: 22,
+});
