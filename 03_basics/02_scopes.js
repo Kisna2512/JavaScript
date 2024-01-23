@@ -10,3 +10,24 @@ if (true) {
 
 console.log(a);
 console.log(c);
+
+function One() {
+  const Name = "Krishna";
+  function Two() {
+    const age = 21;
+    console.log(Name);
+  }
+  Two();
+}
+
+// One();
+console.log(addOne(5));
+function addOne(num) {
+  return num + 1;
+}
+
+const addTwo = function (num) {
+  return num + 2;
+};
+
+console.log(addTwo(5));
