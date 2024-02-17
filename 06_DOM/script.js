@@ -20,3 +20,10 @@ newArray.forEach((item) => console.log(item.innerHTML));
 const dayOne = document.querySelector(".day");
 console.log(dayOne.nextElementSibling.innerHTML);
 console.log(dayOne.parentElement);
+
+const h1 = document.createElement("h1");
+
+h1.className = "new";
+h1.innerText = "Hello,world!!";
+console.log(h1);
+document.body.appendChild(h1);
